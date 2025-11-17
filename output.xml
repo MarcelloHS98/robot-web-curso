@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.10 on win32)" generated="2025-10-12T20:20:38.858462" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot-Oficial" source="C:\Users\marce\OneDrive\Documentos\projetos\robot-oficial">
+<suite id="s1-s1" name="Teste" source="C:\Users\marce\OneDrive\Documentos\projetos\robot-oficial\teste.robot">
+<test id="s1-s1-t1" name="cenário 1: Acessando o site da QAZANDO" line="43">
+<kw name="Acessar site da QAZANDO">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-12T20:20:39.026951" level="INFO">Opening browser 'chrome' to base url 'https://automationpratice.com.br/'.</msg>
+<msg time="2025-10-12T20:20:42.400849" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-10-12T20:20:42.400849" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</msg>
+<arg>${SITE_URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-10-12T20:20:39.026951" elapsed="3.377470">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<status status="FAIL" start="2025-10-12T20:20:39.025906" elapsed="3.378515">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:42.406012" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar sobre o botão login">
+<status status="NOT RUN" start="2025-10-12T20:20:42.406012" elapsed="0.001072"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:42.407084" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar email">
+<status status="NOT RUN" start="2025-10-12T20:20:42.408051" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar senha">
+<status status="NOT RUN" start="2025-10-12T20:20:42.408051" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:42.409046" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar em logar">
+<status status="NOT RUN" start="2025-10-12T20:20:42.409046" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:42.410064" elapsed="0.000000"/>
+</kw>
+<kw name="Verificar texto login realizado">
+<status status="NOT RUN" start="2025-10-12T20:20:42.411141" elapsed="0.000000"/>
+</kw>
+<tag>Teste1</tag>
+<status status="FAIL" start="2025-10-12T20:20:39.024931" elapsed="3.386764">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</test>
+<test id="s1-s1-t2" name="cenário 2: Testando Robot" line="56">
+<kw name="Abrir Site Herbert">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-12T20:20:42.415702" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com.br/'.</msg>
+<msg time="2025-10-12T20:20:45.758020" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-10-12T20:20:45.758020" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</msg>
+<arg>${SITE_URL_HERBERT}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-10-12T20:20:42.415702" elapsed="3.343361">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<status status="FAIL" start="2025-10-12T20:20:42.415702" elapsed="3.344298">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:45.760000" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar sobre o botão login">
+<status status="NOT RUN" start="2025-10-12T20:20:45.760000" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:45.760976" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar email">
+<status status="NOT RUN" start="2025-10-12T20:20:45.760976" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar senha">
+<status status="NOT RUN" start="2025-10-12T20:20:45.760976" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:45.760976" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar em logar">
+<status status="NOT RUN" start="2025-10-12T20:20:45.760976" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:45.760976" elapsed="0.000000"/>
+</kw>
+<kw name="Verificar texto login realizado">
+<status status="NOT RUN" start="2025-10-12T20:20:45.760976" elapsed="0.000000"/>
+</kw>
+<tag>Teste2</tag>
+<status status="FAIL" start="2025-10-12T20:20:42.412807" elapsed="3.348169">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</test>
+<test id="s1-s1-t3" name="cenário 3: Testando valor no teste" line="69">
+<kw name="Acessar esse site">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-12T20:20:45.763231" level="INFO">Opening browser 'chrome' to base url 'https://automationpratice.com.br/'.</msg>
+<msg time="2025-10-12T20:20:49.106842" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-10-12T20:20:49.106842" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-10-12T20:20:45.763231" elapsed="3.344600">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<arg>https://automationpratice.com.br/</arg>
+<status status="FAIL" start="2025-10-12T20:20:45.763231" elapsed="3.345595">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:49.108826" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar sobre o botão login">
+<status status="NOT RUN" start="2025-10-12T20:20:49.108826" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:49.109828" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar email">
+<status status="NOT RUN" start="2025-10-12T20:20:49.109828" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar senha">
+<status status="NOT RUN" start="2025-10-12T20:20:49.109828" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:49.109828" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar em logar">
+<status status="NOT RUN" start="2025-10-12T20:20:49.109828" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:49.109828" elapsed="0.000998"/>
+</kw>
+<kw name="Verificar texto login realizado">
+<status status="NOT RUN" start="2025-10-12T20:20:49.110826" elapsed="0.000000"/>
+</kw>
+<tag>Teste3</tag>
+<status status="FAIL" start="2025-10-12T20:20:45.762210" elapsed="3.348616">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</test>
+<status status="FAIL" start="2025-10-12T20:20:38.885947" elapsed="10.226095"/>
+</suite>
+<suite id="s1-s2" name="Teste2" source="C:\Users\marce\OneDrive\Documentos\projetos\robot-oficial\teste2.robot">
+<test id="s1-s2-t1" name="cenário 1: Acessando o site da QAZANDO" line="45">
+<kw name="Acessar site da QAZANDO">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-12T20:20:53.176753" level="INFO">Opening browser 'chrome' to base url 'https://automationpratice.com.br/'.</msg>
+<msg time="2025-10-12T20:20:56.473759" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-10-12T20:20:56.473759" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</msg>
+<arg>${SITE_URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-10-12T20:20:49.124173" elapsed="7.353405">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<status status="FAIL" start="2025-10-12T20:20:49.124173" elapsed="7.353405">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:56.477578" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar sobre o botão login">
+<status status="NOT RUN" start="2025-10-12T20:20:56.478595" elapsed="0.000000"/>
+</kw>
+<kw name="Tirar Print">
+<status status="NOT RUN" start="2025-10-12T20:20:56.478595" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:56.479592" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar email">
+<status status="NOT RUN" start="2025-10-12T20:20:56.479592" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar senha">
+<status status="NOT RUN" start="2025-10-12T20:20:56.479592" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:56.480596" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar em logar">
+<status status="NOT RUN" start="2025-10-12T20:20:56.480977" elapsed="0.000000"/>
+</kw>
+<kw name="Tirar Print">
+<status status="NOT RUN" start="2025-10-12T20:20:56.480977" elapsed="0.000000"/>
+</kw>
+<kw name="Aguardar site carregar">
+<status status="NOT RUN" start="2025-10-12T20:20:56.481997" elapsed="0.000000"/>
+</kw>
+<kw name="Verificar texto login realizado">
+<status status="NOT RUN" start="2025-10-12T20:20:56.481997" elapsed="0.000000"/>
+</kw>
+<kw name="Tirar Print">
+<status status="NOT RUN" start="2025-10-12T20:20:56.482998" elapsed="0.000000"/>
+</kw>
+<tag>Teste1</tag>
+<status status="FAIL" start="2025-10-12T20:20:49.124173" elapsed="7.358825">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</test>
+<status status="FAIL" start="2025-10-12T20:20:49.112042" elapsed="7.372959"/>
+</suite>
+<suite id="s1-s3" name="Teste4" source="C:\Users\marce\OneDrive\Documentos\projetos\robot-oficial\teste4.robot">
+<test id="s1-s3-t1" name="cenário 1: Acessando o site da QAZANDO" line="50">
+<kw name="Acessar site da QAZANDO">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-12T20:20:56.496771" level="INFO">Opening browser 'chrome' to base url 'https://automationpratice.com.br/'.</msg>
+<msg time="2025-10-12T20:20:59.740145" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-10-12T20:20:59.740145" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</msg>
+<arg>${SITE_URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-10-12T20:20:56.495696" elapsed="3.246511">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<kw name="Esperar Elemento">
+<arg>2</arg>
+<status status="NOT RUN" start="2025-10-12T20:20:59.742207" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-10-12T20:20:56.495175" elapsed="3.247032">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</kw>
+<kw name="Clicar sobre o botão login">
+<status status="NOT RUN" start="2025-10-12T20:20:59.742207" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar email">
+<status status="NOT RUN" start="2025-10-12T20:20:59.743430" elapsed="0.000000"/>
+</kw>
+<kw name="Digitar senha">
+<status status="NOT RUN" start="2025-10-12T20:20:59.743430" elapsed="0.000000"/>
+</kw>
+<kw name="Clicar em logar">
+<status status="NOT RUN" start="2025-10-12T20:20:59.743430" elapsed="0.000000"/>
+</kw>
+<kw name="Verificar texto login realizado">
+<status status="NOT RUN" start="2025-10-12T20:20:59.743430" elapsed="0.000000"/>
+</kw>
+<tag>Teste1</tag>
+<status status="FAIL" start="2025-10-12T20:20:56.493515" elapsed="3.249915">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 141.0.7390.55 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF658C34C25+3179557]
+	(No symbol) [0x00007FF6588988A0]
+	(No symbol) [0x00007FF6587291CA]
+	(No symbol) [0x00007FF65876D58D]
+	(No symbol) [0x00007FF65876C5CB]
+	(No symbol) [0x00007FF658766700]
+	(No symbol) [0x00007FF658761CCD]
+	(No symbol) [0x00007FF6587B5E8B]
+	(No symbol) [0x00007FF6587B5460]
+	(No symbol) [0x00007FF6587A7A03]
+	(No symbol) [0x00007FF6587706D0]
+	(No symbol) [0x00007FF658771983]
+	GetHandleVerifier [0x00007FF658C967CD+3579853]
+	GetHandleVerifier [0x00007FF658CAD1D2+3672530]
+	GetHandleVerifier [0x00007FF658CA2153+3627347]
+	GetHandleVerifier [0x00007FF658A0092A+868650]
+	(No symbol) [0x00007FF6588A2FFF]
+	(No symbol) [0x00007FF65889F4A4]
+	(No symbol) [0x00007FF65889F646]
+	(No symbol) [0x00007FF65888EAA9]
+	BaseThreadInitThunk [0x00007FFAD9D0E8D7+23]
+	RtlUserThreadStart [0x00007FFADB57C34C+44]
+</status>
+</test>
+<status status="FAIL" start="2025-10-12T20:20:56.486386" elapsed="3.258047"/>
+</suite>
+<status status="FAIL" start="2025-10-12T20:20:38.860099" elapsed="20.885838"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="5" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="3" skip="0">Teste1</stat>
+<stat pass="0" fail="1" skip="0">Teste2</stat>
+<stat pass="0" fail="1" skip="0">Teste3</stat>
+</tag>
+<suite>
+<stat name="Robot-Oficial" id="s1" pass="0" fail="5" skip="0">Robot-Oficial</stat>
+<stat name="Teste" id="s1-s1" pass="0" fail="3" skip="0">Robot-Oficial.Teste</stat>
+<stat name="Teste2" id="s1-s2" pass="0" fail="1" skip="0">Robot-Oficial.Teste2</stat>
+<stat name="Teste4" id="s1-s3" pass="0" fail="1" skip="0">Robot-Oficial.Teste4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
